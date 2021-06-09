@@ -1,7 +1,5 @@
 package SaimTask.Array2;
 
-import day41_arraylist.ArrayAsList;
-
 import java.util.Arrays;
 
 public class ElgunFizzBuzzCode {

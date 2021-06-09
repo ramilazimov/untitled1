@@ -32,13 +32,24 @@ public class MethodWithListReturn {
      *    Loop from 0 - 1000_000
      *    and add to arraylist then return it
      */
-    public static List<Integer> getIntegerList() {
-        List<Integer> nums = new ArrayList<>();
-        for(int i = 0; i <= 1_000_000; i++) {
-            nums.add(i);
-        }
-        return nums;
-    }
+
+
+   public static List<Integer> getIntegerList(){
+       List<Integer> arr = new ArrayList<>();
+       for (int i = 0; i < 1_000_000_000; i++) {
+
+           arr.add(i);
+       }
+      return arr;
+   }
+
+//    public static List<Integer> getIntegerList() {
+//        List<Integer> nums = new ArrayList<>();
+//        for(int i = 0; i <= 1_000_000; i++) {
+//            nums.add(i);
+//        }
+//        return nums;
+//    }
 
     /**
      * getIntegerArray

@@ -1,8 +1,5 @@
 package day42_arrayList;
 
-import day41_arraylist.ArrayAsList;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -21,13 +18,16 @@ public class CollectionsUtil {
 
         System.out.println(Collections.frequency(letters,'a'));
         int vCount = Collections.frequency(letters,'v');
+        int aCount = Collections.frequency(letters,'a');
         System.out.println("vCount = " + vCount);
+        System.out.println("aCount = " + aCount);
 
         System.out.println("max number = " + Collections.max(letters));
         System.out.println("min number = " + Collections.min(letters));
         Collections.reverse(letters);
         Collections.replaceAll(letters,'a','u');
         Collections.replaceAll(letters,'i','j');
+        Collections.replaceAll(letters,'j','c');
         System.out.println("after replaceAll = " + letters);
 
         Collections.sort(letters);

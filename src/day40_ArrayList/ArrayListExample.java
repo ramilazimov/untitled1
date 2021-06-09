@@ -7,6 +7,7 @@ public class ArrayListExample {
         integer.add(7);
         integer.add(9);
         integer.add(10);
+        integer.add(7);
         System.out.println("integer = " + integer);
         System.out.println(integer.get(1));
         ArrayList<Integer> nums = new ArrayList<>();
@@ -32,6 +33,7 @@ public class ArrayListExample {
         System.out.println(nums); //Arrays.toString(numArray)
 
         nums.remove(1); //remove element at index 1
+        nums.remove(1);
 
         System.out.println(nums);
 

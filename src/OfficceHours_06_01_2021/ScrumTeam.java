@@ -26,6 +26,8 @@ package OfficceHours_06_01_2021;
                    toString(): prints number of tester,& developers,  PO name, SM name, BA name
  */
 
+import com.sun.xml.internal.bind.v2.model.core.ID;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -70,5 +72,7 @@ public class ScrumTeam {
         scrumTeam.addDeveloper(new Developer("Anton", 1, "dev", 10000000));
         System.out.println(scrumTeam.allDevelopers);
 
+
     }
+
 }

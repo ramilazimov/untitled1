@@ -10,6 +10,8 @@ public class ArrayListLoop {
         nums.add(34); nums.add(44); nums.add(3); nums.add(88);
         nums.add(500); nums.add(5);nums.add(845);nums.add(0);
         nums.add(500); nums.add(5);nums.add(845);nums.add(0);
+        nums.add(177);
+
 
 //       System.out.println("nums = " + nums);
 //
@@ -27,8 +29,12 @@ public class ArrayListLoop {
 
         //for loop - iterate through all values and print
 
+        System.out.println("nums = " + nums);
         for (int i = 0;i < nums.size();i++){
             System.out.print(nums.get(i)+ " ");
+            if(nums.get(i)==5){
+                nums.remove(i);
+            }
         }
 
         //for each loop, and print all in same line
@@ -36,5 +42,7 @@ public class ArrayListLoop {
             System.out.print(each +" ");
 
         }
+
+        System.out.println("nums = " + nums);
     }
 }

@@ -1,7 +1,5 @@
 package SaimTask.ArrayList;
 
-import day41_arraylist.ArrayAsList;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
