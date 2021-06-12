@@ -6,4 +6,8 @@ public class App {
     public void open(){
         System.out.println( name + " " + version);
     }
+    public void playing(String person){
+        System.out.println(person + " buying new  " + name + version);
+
+    }
 }

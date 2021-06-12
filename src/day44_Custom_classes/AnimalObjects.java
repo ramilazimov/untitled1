@@ -10,6 +10,8 @@ public class AnimalObjects {
          cheetaObj.type = "cheetah is ";
         System.out.println(cheetaObj.type);
         cheetaObj.eat(" meat");
+        Animal bear = new Animal();
+        bear.speak("whoo");
 
     }
 }

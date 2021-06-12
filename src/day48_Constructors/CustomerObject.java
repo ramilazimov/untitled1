@@ -24,11 +24,7 @@ public class CustomerObject {
 
             //arrayList of Customer objects
             List<Customer> customerList = new ArrayList<>();
-            customerList.add(cs1);
-            customerList.add(cs2);
-            customerList.add(cs3);
-            customerList.add(new Customer("Bashir", 449));
-            customerList.add(new Customer("Suleyman", 9763));
+
 
             //Print info of first customer object in array and arraylist.
             System.out.println(todaysCustomers[0]);

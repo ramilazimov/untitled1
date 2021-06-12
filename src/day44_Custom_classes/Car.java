@@ -28,7 +28,7 @@ public class Car {
             vehicle.model = scan.nextLine();
             System.out.println("Enter car " + (i+1) + " color");
             vehicle.color = scan.nextLine();
-            list.add(vehicle);
+             list.add(vehicle);
         }
 
         list.forEach(each -> {

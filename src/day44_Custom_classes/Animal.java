@@ -13,4 +13,7 @@ public void eat(String food){
 public void speak(){
     System.out.println("speaking");
 }
+public void speak(String speak){
+    System.out.println(type + " make noise " + speak);
+}
 }
