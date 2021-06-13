@@ -2,24 +2,25 @@ package day52_inheritance;
 
 public class AppObjects {
     public static void main(String[] args) {
-        MobileApp mobileApp = new MobileApp();
-        mobileApp.setName("YouTube");
-        mobileApp.useTheApp(10);
-        mobileApp.download();
+        MobileApp mobApp = new MobileApp();
+        mobApp.setName(" WhatsUp");
+        mobApp.setVersion(0.187);
+        mobApp.useTheApp(10);
+        mobApp.download();
 
         Instagram instagram = new Instagram();
         instagram.setName("Instagram");
-        instagram.setVersion(5.3);
-        instagram.useTheApp(20);
+        instagram.setVersion(2.77);
+        instagram.useTheApp(15);
         instagram.download();
 
-        Discord b22Discord = new Discord();
-        b22Discord.setName("Discord");
-        b22Discord.setVersion(6.234);
-        b22Discord.useTheApp(100);
-        b22Discord.download();
-        b22Discord.printInfo();
-        System.out.println(b22Discord.getName());
+   Discord b22discord = new Discord();
+   b22discord.setName("Discord");
+   b22discord.setVersion(3.77);
+   b22discord.useTheApp(30);
+    b22discord.download();
+    b22discord.printInfo();
+    b22discord.chat("Ramil");
 
     }
 

@@ -2,21 +2,24 @@ package day52_inheritance.discordusers;
 
 import com.sun.xml.internal.bind.v2.model.core.ID;
 
+import java.util.stream.Stream;
+
 public class User {
+
     private String role;
     private String name;
     private int id;
 
-    public User() {
-        System.out.println("User class constructor");
-    }
+public User(){
+    System.out.println(" user class constructor");
+}
 
-    public User(String role, String name, int id) {
-        System.out.println("User class 3 args constructor");
-        this.role = role;
-        this.name = name;
-        this.id = id;
-    }
+  public User(String role,String name, int id){
+      System.out.println(" User class 3 arguments constructor");
+      this.role = role;
+      this.name = name;
+      this.id = id;
+  }
 
     @Override
     public String toString() {
