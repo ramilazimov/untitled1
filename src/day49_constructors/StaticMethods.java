@@ -2,7 +2,7 @@ package day49_constructors;
 
 public class StaticMethods {
 
-    int num = 10;
+      int num = 10;
     static int count = 5;
 
     public static void displayMessage(String message) {
@@ -18,7 +18,7 @@ public class StaticMethods {
     //StaticMethods.instanceMethod(); > no
     //StaticMethods stm = new StaticMethods();
     //stm.instanceMethod();
-    public void instanceMethod() {
+    public  void instanceMethod() {
         System.out.println("instanceMethod");
         System.out.println("num = " + num);
         System.out.println("count = " + count);

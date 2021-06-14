@@ -12,5 +12,8 @@ public class StaticTest {
 
         //2) static method can only access other static variables and methods
         System.out.println(word);
+
+
+
     }
 }
