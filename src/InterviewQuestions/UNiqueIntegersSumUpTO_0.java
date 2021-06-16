@@ -7,7 +7,7 @@ public class UNiqueIntegersSumUpTO_0 {
     public static void main(String[] args) {
 
                int count = 0;
-               int N = 10;
+               int N = 7;
                int sum = 0;
                int[] result = new int[N];
             for (int i = 0; i < N - 1; i++) {
@@ -27,9 +27,7 @@ public class UNiqueIntegersSumUpTO_0 {
             }
             if (count <= N ) {
                 System.out.println(Arrays.toString(result));
-
             }
-
         }
     }
 
