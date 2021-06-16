@@ -1,10 +1,10 @@
 package day54_abstraction;
 
-public class Pizza extends MenuItem{
+public class Pizza extends MenuItem {
 
     @Override
     public void prepare() {
-        System.out.println("Strech the dough");
+        System.out.println("Stretch the dough and put toppings and cheese and bake it");
     }
 
     @Override
