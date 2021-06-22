@@ -1,6 +1,6 @@
 package day46_Encapsulation;
 
-public class NewCar {
+public class NewCar1 {
     String model;
     private int year;
     private int mileage;

@@ -3,7 +3,7 @@ package day46_Encapsulation;
 public class NewCarObject {
     public static void main(String[] args) {
 
-        NewCar car1 = new NewCar();
+        NewCar1 car1 = new NewCar1();
         car1.model = "Nissan Altima";
         car1.setModel("Mercedes Benz");
         System.out.println("Car model "+car1.getModel());
@@ -16,7 +16,7 @@ public class NewCarObject {
         car1.setMileage(45777);
         System.out.println("car1 mileAge " +  car1.getMileage());
         System.out.println(car1.toString());
-        NewCar alfaRomeo = new NewCar();
+        NewCar1 alfaRomeo = new NewCar1();
         alfaRomeo.setModel("Alfa Romeo");
         alfaRomeo.setYear(2017);
         alfaRomeo.setMileage(17000);

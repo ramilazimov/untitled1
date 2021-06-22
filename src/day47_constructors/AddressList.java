@@ -3,7 +3,7 @@ package day47_constructors;
 public class AddressList {
     public static void main (String[] args){
         //calling the constructor automatically
-        Address cybertekAddress = new Address();
+        Address1 cybertekAddress = new Address1();
         cybertekAddress.setStreet("7925 Jones Branch Dr Suite 3300");
         cybertekAddress.setCity("McLean");
         cybertekAddress.setState("VA");
@@ -15,14 +15,14 @@ public class AddressList {
         System.out.println("address after update = " + cybertekAddress);
         System.out.println("street info = " + cybertekAddress.getStreet());
 
-        Address newAddress = new Address();
+        Address1 newAddress = new Address1();
         newAddress.setStreet("7921 Jones branch dr Suite 200");
         newAddress.setCity("McLean");
         newAddress.setState("VA");
         newAddress.setZipCode("22102");
         System.out.println(newAddress.toString());
 
-        Address papaJohnPizza = new Address("8501 Tyco Rd Ste 1A", "Vienna", "VA", "22182");
+        Address1 papaJohnPizza = new Address1("8501 Tyco Rd Ste 1A", "Vienna", "VA", "22182");
         System.out.println("Papa John pizza = " + papaJohnPizza.toString());
     }
 }

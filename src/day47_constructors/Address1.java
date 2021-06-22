@@ -1,13 +1,13 @@
 package day47_constructors;
 
-public class Address {
+public class Address1 {
     private String street;
     private String city;
     private String state;
     private String zipCode;
     private String country = "USA";
     //constructor method- automatically called
-    public Address() {
+    public Address1() {
         System.out.println("Address constructor");
         street = "123 unknown st";
         city = "Unknown";
@@ -16,7 +16,7 @@ public class Address {
     }
     //second constructor, overloaded constructor -> provides shortcut to initialize variables
     //in same statement: ex: Address ad = new Address("123 java st", "Boston", "MA", "43213");
-    public Address(String street, String city, String state, String zipCode) {
+    public Address1(String street, String city, String state, String zipCode) {
         setStreet(street);//reuse the code in the setter method
         this.city = city;
         this.state = state;
