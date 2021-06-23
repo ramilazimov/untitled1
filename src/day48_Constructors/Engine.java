@@ -1,27 +1,27 @@
 package day48_Constructors;
 
 public class Engine {
-    private int cylinders;
+    private int cylinder;
 
-    public Engine() {
+    public Engine(){
+
     }
-
-    public Engine(int cylinders) {
-        this.cylinders = cylinders;
+    public Engine(int cylinder) {
+        this.cylinder = cylinder;
     }
 
     @Override
     public String toString() {
         return "Engine{" +
-                "cylinders=" + cylinders +
+                "cylinder=" + cylinder +
                 '}';
     }
 
-    public int getCylinders() {
-        return cylinders;
+    public int getCylinder() {
+        return cylinder;
     }
 
-    public void setCylinders(int cylinders) {
-        this.cylinders = cylinders;
+    public void setCylinder(int cylinder) {
+        this.cylinder = cylinder;
     }
 }

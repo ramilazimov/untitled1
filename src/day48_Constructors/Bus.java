@@ -4,8 +4,18 @@ public class Bus {
     Driver driver;
     Engine engine;
 
-
     public String toString() {
-        return  driver.getName() + "|" + engine.getCylinders();
+
+        return driver.getName() + " | " + engine.getCylinder();
+
+
+//     Driver driver;
+//    Engine engine;
+//
+//
+//    public String toString() {
+//        return driver.getName() +" | "+ engine.getCylinders();
+//    }
+
     }
 }
